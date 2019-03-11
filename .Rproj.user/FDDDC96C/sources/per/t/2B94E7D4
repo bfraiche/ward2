@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1552267502525.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1347911281",
+    "id" : "2B94E7D4",
+    "lastKnownWriteTime" : 1552270619,
+    "last_content_update" : 1552270619618,
+    "path" : "~/Documents/ward2/precinct_performance.Rmd",
+    "project_path" : "precinct_performance.Rmd",
+    "properties" : {
+        "chunk_output_type" : "inline",
+        "cursorPosition" : "61,0",
+        "scrollLine" : "62",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

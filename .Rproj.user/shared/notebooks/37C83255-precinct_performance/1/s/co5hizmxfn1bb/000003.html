@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<script src="lib/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="lib/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="lib/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="lib/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="lib/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="lib/kePrint-0.0.1/kePrint.js"></script>
+
+</head>
+<body style="background-color:white;">
+<table class="table table-striped table-hover table-responsive" style="margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:left;"> ElectionYear </th>
+   <th style="text-align:left;"> ElectionName </th>
+   <th style="text-align:left;"> ContestName </th>
+   <th style="text-align:left;"> WardNumber </th>
+   <th style="text-align:left;"> PrecinctNumber </th>
+   <th style="text-align:left;"> Candidate </th>
+   <th style="text-align:left;"> Party </th>
+   <th style="text-align:left;"> Votes </th>
+   <th style="text-align:left;"> PrecinctPercent </th>
+   <th style="text-align:left;"> WardPerformance </th>
+   <th style="text-align:left;"> CityPerformance </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> Anita Bonds </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 12.65%">280</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 36.73%">0.36</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #abf2ab">0.06</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b2f3b2">0.03</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> Elissa Silverman </td>
+   <td style="text-align:left;"> IND </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 6.28%">139</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 18.37%">0.18</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c6f6c6">-0.05</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bef5be">-0.02</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 3 </td>
+   <td style="text-align:left;"> Anita Bonds </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 30.04%">665</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 28.57%">0.28</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bef5be">-0.02</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c3f5c3">-0.04</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 3 </td>
+   <td style="text-align:left;"> Elissa Silverman </td>
+   <td style="text-align:left;"> IND </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 24.16%">535</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 23.47%">0.23</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b2f3b2">0.03</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 4 </td>
+   <td style="text-align:left;"> Anita Bonds </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 41.19%">912</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 30.61%">0.30</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c1f5c1">-0.03</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 4 </td>
+   <td style="text-align:left;"> Elissa Silverman </td>
+   <td style="text-align:left;"> IND </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 26.60%">589</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 19.39%">0.19</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c1f5c1">-0.03</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 5 </td>
+   <td style="text-align:left;"> Anita Bonds </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 44.13%">977</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 27.55%">0.27</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c1f5c1">-0.03</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c8f6c8">-0.06</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 5 </td>
+   <td style="text-align:left;"> Elissa Silverman </td>
+   <td style="text-align:left;"> IND </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 33.97%">752</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 21.43%">0.21</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bef5be">-0.02</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b5f3b5">0.02</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 6 </td>
+   <td style="text-align:left;"> Anita Bonds </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 43.09%">954</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 28.57%">0.28</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bef5be">-0.02</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c6f6c6">-0.05</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 6 </td>
+   <td style="text-align:left;"> Elissa Silverman </td>
+   <td style="text-align:left;"> IND </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 29.40%">651</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 19.39%">0.19</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c1f5c1">-0.03</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 13 </td>
+   <td style="text-align:left;"> Anita Bonds </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 26.33%">583</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 28.57%">0.28</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bef5be">-0.02</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c6f6c6">-0.05</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 13 </td>
+   <td style="text-align:left;"> Elissa Silverman </td>
+   <td style="text-align:left;"> IND </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 24.53%">543</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 26.53%">0.26</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b2f3b2">0.03</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #abf2ab">0.06</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 14 </td>
+   <td style="text-align:left;"> Anita Bonds </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 58.58%">1297</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 29.59%">0.29</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bcf4bc">-0.01</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c1f5c1">-0.03</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 14 </td>
+   <td style="text-align:left;"> Elissa Silverman </td>
+   <td style="text-align:left;"> IND </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 48.19%">1067</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 24.49%">0.24</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b7f4b7">0.01</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #adf2ad">0.05</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 15 </td>
+   <td style="text-align:left;"> Anita Bonds </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 61.43%">1360</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 29.59%">0.29</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bcf4bc">-0.01</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c3f5c3">-0.04</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 15 </td>
+   <td style="text-align:left;"> Elissa Silverman </td>
+   <td style="text-align:left;"> IND </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 57.99%">1284</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 27.55%">0.27</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b0f2b0">0.04</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #a8f1a8">0.07</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 16 </td>
+   <td style="text-align:left;"> Anita Bonds </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 71.41%">1581</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 30.61%">0.30</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bef5be">-0.02</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 16 </td>
+   <td style="text-align:left;"> Elissa Silverman </td>
+   <td style="text-align:left;"> IND </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 58.90%">1304</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 25.51%">0.25</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b5f3b5">0.02</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #abf2ab">0.06</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 17 </td>
+   <td style="text-align:left;"> Anita Bonds </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 100.00%">2214</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 33.67%">0.33</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b2f3b2">0.03</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 17 </td>
+   <td style="text-align:left;"> Elissa Silverman </td>
+   <td style="text-align:left;"> IND </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 64.32%">1424</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 21.43%">0.21</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bef5be">-0.02</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b5f3b5">0.02</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 129 </td>
+   <td style="text-align:left;"> Anita Bonds </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 49.82%">1103</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 31.63%">0.31</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b7f4b7">0.01</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bef5be">-0.02</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 129 </td>
+   <td style="text-align:left;"> Elissa Silverman </td>
+   <td style="text-align:left;"> IND </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 34.69%">768</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 22.45%">0.22</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bcf4bc">-0.01</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b5f3b5">0.02</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 141 </td>
+   <td style="text-align:left;"> Anita Bonds </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 51.04%">1130</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 30.61%">0.30</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c1f5c1">-0.03</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 141 </td>
+   <td style="text-align:left;"> Elissa Silverman </td>
+   <td style="text-align:left;"> IND </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 43.59%">965</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 26.53%">0.26</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b2f3b2">0.03</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #abf2ab">0.06</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 143 </td>
+   <td style="text-align:left;"> Anita Bonds </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 35.86%">794</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 32.65%">0.32</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b5f3b5">0.02</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bcf4bc">-0.01</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> General Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 143 </td>
+   <td style="text-align:left;"> Elissa Silverman </td>
+   <td style="text-align:left;"> IND </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 20.23%">448</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 18.37%">0.18</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c6f6c6">-0.05</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bcf4bc">-0.01</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> INITIATIVE MEASURE NO. 77 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> YES, to approve </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 2.17%">48</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 63.27%">0.62</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #99ef99">0.13</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #a1f0a1">0.10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> INITIATIVE MEASURE NO. 77 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 3 </td>
+   <td style="text-align:left;"> YES, to approve </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 9.44%">209</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 53.06%">0.52</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b2f3b2">0.03</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bcf4bc">-0.01</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> INITIATIVE MEASURE NO. 77 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 4 </td>
+   <td style="text-align:left;"> YES, to approve </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 9.35%">207</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 47.96%">0.47</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bef5be">-0.02</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c8f6c8">-0.06</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> INITIATIVE MEASURE NO. 77 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 5 </td>
+   <td style="text-align:left;"> YES, to approve </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 9.30%">206</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 36.73%">0.36</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #dcf9dc">-0.14</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #e3fae3">-0.17</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> INITIATIVE MEASURE NO. 77 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 6 </td>
+   <td style="text-align:left;"> YES, to approve </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 9.21%">204</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 43.88%">0.43</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c8f6c8">-0.06</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #d0f7d0">-0.09</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> INITIATIVE MEASURE NO. 77 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 13 </td>
+   <td style="text-align:left;"> YES, to approve </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 9.58%">212</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 51.02%">0.50</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b7f4b7">0.01</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c1f5c1">-0.03</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> INITIATIVE MEASURE NO. 77 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 14 </td>
+   <td style="text-align:left;"> YES, to approve </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 20.55%">455</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 56.12%">0.55</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #abf2ab">0.06</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b5f3b5">0.02</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> INITIATIVE MEASURE NO. 77 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 15 </td>
+   <td style="text-align:left;"> YES, to approve </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 22.40%">496</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 53.06%">0.52</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b2f3b2">0.03</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bcf4bc">-0.01</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> INITIATIVE MEASURE NO. 77 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 16 </td>
+   <td style="text-align:left;"> YES, to approve </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 22.90%">507</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 45.92%">0.45</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c3f5c3">-0.04</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #cbf7cb">-0.07</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> INITIATIVE MEASURE NO. 77 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 17 </td>
+   <td style="text-align:left;"> YES, to approve </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 28.55%">632</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 53.06%">0.52</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b2f3b2">0.03</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bcf4bc">-0.01</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> INITIATIVE MEASURE NO. 77 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 129 </td>
+   <td style="text-align:left;"> YES, to approve </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 13.96%">309</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 50.00%">0.49</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c3f5c3">-0.04</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> INITIATIVE MEASURE NO. 77 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 141 </td>
+   <td style="text-align:left;"> YES, to approve </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 16.21%">359</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 52.04%">0.51</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b5f3b5">0.02</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bef5be">-0.02</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2018 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> INITIATIVE MEASURE NO. 77 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 143 </td>
+   <td style="text-align:left;"> YES, to approve </td>
+   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 9.53%">211</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 55.10%">0.54</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #adf2ad">0.05</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b7f4b7">0.01</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> Robert White </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 2.08%">46</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 40.82%">0.40</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b7f4b7">0.01</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 3 </td>
+   <td style="text-align:left;"> Robert White </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 7.18%">159</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 33.67%">0.33</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c6f6c6">-0.05</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c8f6c8">-0.06</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 4 </td>
+   <td style="text-align:left;"> Robert White </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 8.63%">191</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 38.78%">0.38</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bcf4bc">-0.01</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 5 </td>
+   <td style="text-align:left;"> Robert White </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 10.34%">229</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 35.71%">0.35</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c1f5c1">-0.03</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c3f5c3">-0.04</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 6 </td>
+   <td style="text-align:left;"> Robert White </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 6.64%">147</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 29.59%">0.29</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #d0f7d0">-0.09</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #d2f8d2">-0.10</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 13 </td>
+   <td style="text-align:left;"> Robert White </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 8.40%">186</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 37.76%">0.37</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bef5be">-0.02</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c1f5c1">-0.03</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 14 </td>
+   <td style="text-align:left;"> Robert White </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 17.52%">388</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 43.88%">0.43</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b0f2b0">0.04</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b2f3b2">0.03</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 15 </td>
+   <td style="text-align:left;"> Robert White </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 19.42%">430</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 41.84%">0.41</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b5f3b5">0.02</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b7f4b7">0.01</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 16 </td>
+   <td style="text-align:left;"> Robert White </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 24.21%">536</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 45.92%">0.45</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #a8f1a8">0.07</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #abf2ab">0.06</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 17 </td>
+   <td style="text-align:left;"> Robert White </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 24.57%">544</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 39.80%">0.39</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bcf4bc">-0.01</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 129 </td>
+   <td style="text-align:left;"> Robert White </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 9.53%">211</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 33.67%">0.33</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c8f6c8">-0.06</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #cbf7cb">-0.07</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 141 </td>
+   <td style="text-align:left;"> Robert White </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 14.91%">330</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 43.88%">0.43</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #adf2ad">0.05</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b0f2b0">0.04</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> AT-LARGE MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 143 </td>
+   <td style="text-align:left;"> Robert White </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 5.92%">131</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 31.63%">0.31</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #cdf7cd">-0.08</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #d0f7d0">-0.09</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 4.29%">95</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 83.67%">0.82</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bef5be">-0.02</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bef5be">-0.02</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 3 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 18.11%">401</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 85.71%">0.84</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b7f4b7">0.01</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b7f4b7">0.01</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 4 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 18.56%">411</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 83.67%">0.82</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bcf4bc">-0.01</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bcf4bc">-0.01</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 5 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 25.25%">559</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 87.76%">0.86</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b5f3b5">0.02</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b5f3b5">0.02</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 6 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 19.69%">436</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 88.78%">0.87</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b0f2b0">0.04</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b0f2b0">0.04</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 13 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 19.33%">428</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 85.71%">0.84</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b7f4b7">0.01</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b7f4b7">0.01</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 14 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 33.02%">731</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 82.65%">0.81</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c1f5c1">-0.03</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c1f5c1">-0.03</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 15 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 37.76%">836</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 80.61%">0.79</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c3f5c3">-0.04</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c3f5c3">-0.04</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 16 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 45.71%">1012</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 86.73%">0.85</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b5f3b5">0.02</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b5f3b5">0.02</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 17 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 53.21%">1178</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 85.71%">0.84</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 129 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 24.53%">543</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 85.71%">0.84</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 141 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 28.91%">640</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 85.71%">0.84</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2016 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 143 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 16.08%">356</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 85.71%">0.84</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2012 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 1.17%">26</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 88.78%">0.87</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c8f6c8">-0.06</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c8f6c8">-0.06</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2012 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 3 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 9.17%">203</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 95.92%">0.94</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b7f4b7">0.01</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b7f4b7">0.01</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2012 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 4 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 6.91%">153</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 100.00%">0.98</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #abf2ab">0.06</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #abf2ab">0.06</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2012 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 5 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 12.20%">270</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 95.92%">0.94</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b7f4b7">0.01</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b7f4b7">0.01</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2012 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 6 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 10.21%">226</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 92.86%">0.91</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bef5be">-0.02</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bef5be">-0.02</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2012 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 13 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 8.99%">199</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 97.96%">0.96</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b2f3b2">0.03</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b2f3b2">0.03</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2012 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 14 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 10.93%">242</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 93.88%">0.92</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2012 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 15 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 13.82%">306</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 88.78%">0.87</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c6f6c6">-0.05</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c6f6c6">-0.05</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2012 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 16 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 17.21%">381</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 90.82%">0.89</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c1f5c1">-0.03</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c1f5c1">-0.03</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2012 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 17 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 19.38%">429</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 95.92%">0.94</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b5f3b5">0.02</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b5f3b5">0.02</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2012 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 129 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 6.37%">141</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 95.92%">0.94</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b5f3b5">0.02</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b5f3b5">0.02</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2012 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 141 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 10.98%">243</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 93.88%">0.92</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2012 </td>
+   <td style="text-align:left;"> D.C. Primary Election </td>
+   <td style="text-align:left;"> MEMBER OF THE COUNCIL WARD TWO </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 143 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 5.78%">128</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 94.90%">0.93</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b9f4b9">0.00</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2008 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> DEM - WARD TWO MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 0.50%">11</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 37.76%">0.37</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">-0.28</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #ffffff">-0.28</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2008 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> DEM - WARD TWO MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 3 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 8.72%">193</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 58.16%">0.57</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #cbf7cb">-0.07</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #cbf7cb">-0.07</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2008 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> DEM - WARD TWO MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 4 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 5.69%">126</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 62.24%">0.61</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c3f5c3">-0.04</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c3f5c3">-0.04</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2008 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> DEM - WARD TWO MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 5 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 15.13%">335</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 74.49%">0.73</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #a6f1a6">0.08</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #a6f1a6">0.08</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2008 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> DEM - WARD TWO MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 6 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 13.46%">298</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 83.67%">0.82</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #90ee90">0.17</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #90ee90">0.17</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2008 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> DEM - WARD TWO MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 13 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 8.58%">190</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 71.43%">0.70</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #adf2ad">0.05</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #adf2ad">0.05</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2008 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> DEM - WARD TWO MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 14 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 11.38%">252</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 63.27%">0.62</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bef5be">-0.02</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #bef5be">-0.02</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2008 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> DEM - WARD TWO MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 15 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 12.38%">274</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 57.14%">0.56</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #cdf7cd">-0.08</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #cdf7cd">-0.08</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2008 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> DEM - WARD TWO MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 16 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 12.56%">278</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 60.20%">0.59</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c8f6c8">-0.06</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c8f6c8">-0.06</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2008 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> DEM - WARD TWO MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 17 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 17.07%">378</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 69.39%">0.68</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b2f3b2">0.03</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #b2f3b2">0.03</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2008 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> DEM - WARD TWO MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 129 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 5.19%">115</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 60.20%">0.59</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c8f6c8">-0.06</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c8f6c8">-0.06</span> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2008 </td>
+   <td style="text-align:left;"> Primary Election </td>
+   <td style="text-align:left;"> DEM - WARD TWO MEMBER OF THE COUNCIL </td>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:left;"> 141 </td>
+   <td style="text-align:left;"> Jack Evans </td>
+   <td style="text-align:left;"> DEM </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 9.17%">203</span> </td>
+   <td style="text-align:left;"> <span style="display: inline-block; direction: rtl; border-radius: 4px; padding-right: 2px; background-color: lightblue; width: 63.27%">0.62</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c1f5c1">-0.03</span> </td>
+   <td style="text-align:left;"> <span style="display: block; padding: 0 4px; border-radius: 4px; background-color: #c1f5c1">-0.03</span> </td>
+  </tr>
+</tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1552142169870.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1679538743",
+    "id" : "DEB9D23B",
+    "lastKnownWriteTime" : 1552269587,
+    "last_content_update" : 1552269587237,
+    "path" : "~/Documents/ward2/main.R",
+    "project_path" : "main.R",
+    "properties" : {
+        "cursorPosition" : "193,0",
+        "scrollLine" : "188",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

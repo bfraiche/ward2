@@ -1,0 +1,62 @@
+---
+title: "Select Races By Precinct"
+output:
+  html_document:
+    df_print: paged
+---
+
+## Selected Races
+```{r race, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(formattable)
+
+options(digits = 2)
+
+load('ward2_by_precinct.RData')
+
+by_precinct %>% 
+  distinct(ElectionYear, ElectionName, ContestName, Candidate) %>% 
+  arrange(ElectionYear, ElectionName, ContestName) %>% 
+  kable(format = "html", escape = F, align = "c") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "responsive"), full_width = F)
+
+```
+
+
+## Precinct Summary
+```{r summary, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+by_precinct %>% 
+  mutate(
+    WardPerformance = if_else(Candidate %in% c('Jack Evans', 'Anita Bonds'), -WardPerformance, WardPerformance),
+    CityPerformance = if_else(Candidate %in% c('Jack Evans', 'Anita Bonds'), -CityPerformance, CityPerformance)
+  ) %>% 
+  group_by(PrecinctNumber) %>% 
+  summarise(
+    WardPerformance = mean(WardPerformance),
+    CityPerformance = mean(CityPerformance),
+    AveragePerformance = mean(WardPerformance, CityPerformance)
+  ) %>% 
+  select(PrecinctNumber, AveragePerformance) %>% 
+  arrange(PrecinctNumber) %>% 
+  mutate(
+    AveragePerformance = cell_spec(round(AveragePerformance, 2), "html", color = ifelse(AveragePerformance < 0, "red", "blue"))
+  ) %>% 
+  kable(format = "html", escape = F, align = "c") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "responsive"), full_width = F)
+```
+
+## Full Dataset
+```{r full, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+by_precinct %>% 
+  mutate(
+    Votes = color_bar("lightblue")(Votes),
+    PrecinctPercent = color_bar("lightblue")(round(PrecinctPercent,2)),
+    WardPerformance = color_tile("white", "lightgreen")(round(WardPerformance,2)),
+    CityPerformance = color_tile("white", "lightgreen")(round(CityPerformance,2))
+  ) %>% 
+  arrange(-ElectionYear, ElectionName, ContestName) %>% 
+  kable(format = "html", escape = F, align = "l") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "responsive"))
+```
